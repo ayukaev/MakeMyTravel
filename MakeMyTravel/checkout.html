@@ -1,0 +1,191 @@
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel='stylesheet' id='prettyphoto-css'  href="css/prettyPhoto.css" type='text/css' media='all'>
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <link href="css/checkout.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 7]>
+            <link href="css/fontello-ie7.css" type="text/css" rel="stylesheet">  
+        <![endif]-->
+    <!-- Google Web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Load ScrollTo -->
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <!-- Load LocalScroll -->
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <!-- prettyPhoto Initialization -->
+    <script type="text/javascript" charset="utf-8">
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+          });
+        </script>
+    </head>
+    <body>
+    <!--******************** NAVBAR ********************-->
+		<div class="navbar-wrapper">
+				<div class="navbar navbar-inverse navbar-fixed-top">
+						<div class="navbar-inner">
+								<div class="container">
+										<!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+										<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span
+														class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+
+										<h1 class="brand"><img src="img/mmt_logo.png" alt=""></h1>
+										<!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+										<nav class="pull-right nav-collapse collapse">
+												<ul id="menu-main" class="nav">
+														<li class="dropdown">
+															<a href="#" class="dropdown-toggle" data-toggle="dropdown">Bob &amp; Alice <span class="caret"></span></a>
+															<ul class="dropdown-menu">
+																<li><a href="#">Profile</a></li>
+																<li><a href="#">Account</a></li>
+																<li><a href="#">Favorites</a></li>
+																<li><a href="#">Log out</a></li>
+															</ul>
+														</li>
+														<li><a title="Trips" href="#">My Trips</a></li>
+														<li><a title="Mail" href="#"><img width="25" src="img/MailBox-icon.png"></a></li>
+												</ul>
+										</nav>
+								</div>
+								<!-- /.container -->
+						</div>
+						<!-- /.navbar-inner -->
+				</div>
+				<!-- /.navbar -->
+		</div>
+    <!-- /.navbar-wrapper -->
+    <div id="top"></div>
+    
+    <!-- Modal -->
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h4 class="modal-title" id="myModalLabel">Success!</h4>
+         </div>
+         <div class="modal-body">
+            Congratulations on choosing your vacation. An e-mail confirmation
+            has been sent. Your winter will not suck!
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-primary" data-dismiss="modal"
+                   style="display:inline;width:100px;height:55px;margin:0">Got it</button>
+         </div>
+       </div>
+     </div>
+</div>
+    
+    <div class="container">
+      <div class="row">
+         <div class="span2"></div>
+         <div class="span5">
+            <h1 id="folio-headline">Checkout</h1>
+         </div>
+         <div class="span5"></div>
+      </div><br><br>
+      <div class="row">
+         <div class="span2"></div>
+         <div class="span7" style="background:#e9e9e9;padding:20px;border-style:dotted;border-width:2px">
+            <div style="float:left;width=300px;">
+               <b>Trip Summary</b><br><br>
+               <b>Hotel</b><br>
+               El Conquistador, 
+               <i>6 nights</i><br><br>
+               
+               <b>Flight Information</b><br>
+               American Airlines 1427, MSP-SJU, Dec 14, 2014<br>
+               American Airlines 1456, SJU-MSP, Dec 21, 2014<br><br>
+               
+               <b>El Yunque Rainforest</b><br>
+               <i>Day 1</i><br><br>
+               
+               <b>Culebra Beach</b><br>
+               <i>Day 2</i><br><br>
+               
+               <b>Old San juan</b><br>
+               <i>Day 3</i><br><br>
+               
+               <b>Service Fee</b>
+               
+            </div>
+            <div style="float:right;width=100px;text-align:right;">
+               <br><br>
+               <b>$600.00</b><br> 
+               <br><br>
+               
+               <b>$325.00</b><br>
+               <br>
+               <br><br>
+               
+               <b>$0.00</b><br>
+               <br><br>
+               
+               <b>$20.00</b><br>
+               <br><br>
+               
+               <b>$0.00</b><br>
+               <br><br>
+               
+               <b>$10.00</b><br><br>
+               
+               <b>Total: $945.00</br>
+               
+            </div>
+         </div>
+         <div class="span3"></div>
+      </div>
+      
+      <div class="row">
+         <div class="span2"></div>
+         <div class="span5">
+            <h1 id="folio-headline">Choose Payment Option</h1>
+            <br>
+            <span style="font-size:1.2em;margin-left:10px;">
+            <input type="radio" name="card" value="1" checked>
+               Use card ending in *1234<br><br></span>
+            <span style="font-size:1.2em;margin-left:10px;">
+            <input type="radio" name="card" value="0">
+               Add new payment option</span><br><br><br><br>
+            <button type="button" data-toggle="modal"
+                    class="btn btn-large hack" data-target="#myModal"
+                    style="display:inline;width:210px;height:60px;margin:0">Confirm Payment</button>
+         </div>
+         <div class="span5"></div>
+      </div><br><br>
+    
+      
+    </div><br><br>
+    
+    
+    <!-- Loading the javaScript at the end of the page -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    
+    </body>
+    </html>
