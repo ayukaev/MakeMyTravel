@@ -98,7 +98,7 @@
         <h1 id="folio-headline">Travel Examples</h1>
         <div class="row">
           <div class="span4">
-            <div class="mask2"> <a href="img/ko-chang.jpg" rel="prettyPhoto"><img src="img/ko-chang.jpg" heigth='189' width='370' alt=""></a> </div>
+            <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="img/portfolio-01.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Something In Thailand</h2>
@@ -112,13 +112,13 @@
           </div>
           <!-- /.span4 -->
           <div class="span4">
-            <div class="mask2"> <a href="img/java.jpg" rel="prettyPhoto"><img src="img/java.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="img/portfolio-02.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Something in Indonesia</h2>
               </hgroup>
               <div class="entry-content">
-                <p>The amazing and ancient places of Java Island are the best place to visit in Indonesia. Hiking trips to Volcano Mountains, surfing at wonderful beaches will make you a big fan of this Island.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a class="more-link" href="#">view project</a> </div>
             </div>
             <!-- /.inside -->
@@ -128,10 +128,10 @@
             <div class="mask2"> <a href="img/christmas_germany.jpg" rel="prettyPhoto"><img src="img/christmas_germany.jpg" alt="" heigth='189' width='370'></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>Christmas in Scandinavia</h2>
+                <h2>Christmas in Europe</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Santa Claus  will meet you in his residence in Lapland, where you also can explore aurora and try “Lohikeytto” soup to warm up. Stockholm and Copenhagen will open doors of greatest Scandinavian castles and palaces for you.  </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a class="more-link" href="#">by Designer A</a> </div>
             </div>
             <!-- /.inside -->
@@ -142,39 +142,39 @@
         
         <div class="row">
           <div class="span4">
-            <div class="mask2"> <a href="img/kazahstan.jpg" rel="prettyPhoto"><img src="img/kazahstan.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="img/portfolio-03.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Something in Kazahstan</h2>
               </hgroup>
               <div class="entry-content">
-                <p>You will dive into history of ancient Kazakhstan in Almaty by spending a night in traditional Kazakh house - Yurt and by trying famous Beshbarmak in family restaurant up in mauntains. During hiking trip in Tien-shan you will reach the 3200 meters peak named “Kumbel” </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a class="more-link" href="#">view project</a> </div>
             </div>
             <!-- /.inside -->
           </div>
           <!-- /.span4 -->
           <div class="span4">
-            <div class="mask2"> <a href="img/Florence.jpg" rel="prettyPhoto"><img src="img/Florence.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="img/portfolio-01.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>Discovering Italy</h2>
+                <h2>Something in Cambodia</h2>
               </hgroup>
               <div class="entry-content">
-                <p>This road trip in Italy will make you one step closer to the soul of Italy. You will live in 18th centuries villa near Florence, explore ruins of Rome and trying the best cuisine of Sicilia with local guide. </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a class="more-link" href="#">view project</a> </div>
             </div>
             <!-- /.inside -->
           </div>
           <!-- /.span4 -->
           <div class="span4">
-            <div class="mask2"> <a href="img/austria.jpg" rel="prettyPhoto"><img src="img/austria.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="img/portfolio-02.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>Winter trip in Austria </h2>
+                <h2>Something in Italia</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Majesty of Vienna, small streets of old Salzburg and gorgeous views of Innsbruck will be first steps of your adventures in Austrian alps. You will be skiing at one of the best skiing resort of Triol while living in beautiful old Austrian house.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a class="more-link" href="#">view project</a> </div>
             </div>
             <!-- /.inside -->
