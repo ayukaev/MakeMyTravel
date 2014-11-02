@@ -3,8 +3,20 @@
 angular.module('mmtravelApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
+      'title': 'About',
+      'link': '/',
+    },{
+      'parent' : '/',
+      'title': 'How it works',
+      'link': '#portfolio'
+    },{
+      'parent' : '/',
+      'title': 'Our Designers',
+      'link': '#team'
+    },{
+      'parent' : '/',
+      'title': 'Contact',
+      'link': '#contact'
     }];
 
     $scope.isCollapsed = true;
