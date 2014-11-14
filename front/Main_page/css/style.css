@@ -314,13 +314,13 @@ ul#menu-main > li > a:hover {
 	margin: 0;
 	border: 0;
 	text-transform: none;
-	background: #e96002 !important;
+	background: #0698a0 !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
 #headerwrap input[type=submit]:hover, #headerwrap input[type=submit]:active {
-	background: #43413e !important;
+	background: #e9600e  !important;
 }
 /*========== Social Icons ==========*/
 ul.icon {
@@ -782,7 +782,7 @@ footer p {
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #e96002 !important;
+	background: #0698a0  !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -794,7 +794,7 @@ footer p {
 	color: #fff;
 }
 .btn:hover {
-	background: #312A1E !important;
+	background: #e9600e !important;
 }
 .navbar-inverse .btn-navbar {
 	width: auto;
