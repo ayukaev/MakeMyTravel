@@ -211,7 +211,7 @@ section.contact .details p.bigger { font-size: 40px; font-weight: 700; margin-to
 .contactform .no-margin { margin-right: 0px; }
 .contactform input.col-lg-6 { width: 48.5%; }
 .contactform button { background: #0698a0; }
-.contactform button:hover, .contactform button:focus { border-color: #0698a0; }
+.contactform button:hover {background: #e9600e}, .contactform button:focus { border-color: #0698a0; }
 .contactform p { text-align: center; }
 
 .form a { color: white; }
@@ -260,6 +260,7 @@ img { max-width: 100%; height: auto; }
 input, textarea { -webkit-appearance: none; }
 
 /* OWL */
+
 .owl-theme .owl-controls .owl-page span { background: white; }
 
 /* CSS Keyframe Animations */

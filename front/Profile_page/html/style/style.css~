@@ -1,11 +1,11 @@
 /*
-* @project: One - Flat Theme;
-* @author: 	SF Theme;
+* @project: 	MakeMyTravel;
+* @author: 	Vladislav Ayukaev;
 */
 /*------------------------------------------------------------------
 [Color Codes]
 Dark Red: #c12728;
-Light Red: #d82c2e;
+Blue: #0698a0;
 Dark Grey: #363b3f;
 Dark Grey 2: #b6b7b7;
 Social Buttons: #444749;
@@ -13,6 +13,7 @@ Light Grey: #f7f8f8;
 Bubbles:#BFBFBF;
 White: #ffffff;
 Black: #000000;
+MakeMyTravel_Background: #f0f0f0
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -29,22 +30,22 @@ Black: #000000;
 /*------------------------------------------------------------------
 [0. General Body]
 -------------------------------------------------------------------*/
-body { color: #363b3f; background: #f7f8f8; }
+body { color: #363b3f; background: #f0f0f0; }
 
 .section { padding: 30px 0 50px 0px; }
-.section h1, .section h2, .section h3, .section h4 { font-family: "Lato", sans-serif; font-weight: 700; color: #d82c2e; }
+.section h1, .section h2, .section h3, .section h4 { font-family: "Lato", sans-serif; font-weight: 700; color: #0698a0; }
 .section p { font-family: "Lato", sans-serif; font-weight: 400; font-size: 15px; line-height: 24px; }
 .section .heading { text-align: center; padding-bottom: 40px; }
 .section .profilePic { text-align: center; margin: 0 auto; float: none; }
-.section .divider { width: 100px; height: 1px; background: #d82c2e; margin: 0 auto; }
+.section .divider { width: 100px; height: 1px; background: #0698a0; margin: 0 auto; }
 
 section.colored h1, section.colored h2, section.colored h3, section.colored h4, section.colored p { color: white; }
 
 .btn, .filter a { font-family: "Lato", sans-serif; font-weight: 400; font-size: 14px; text-decoration: none; background: white; color: #b6b7b7; border: 1px solid #b6b7b7; padding: 18px; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
-.btn:hover, .filter a:hover, .btn:focus, .filter a:focus { background-color: #d82c2e; border-color: #d82c2e; color: white; }
+.btn:hover, .filter a:hover, .btn:focus, .filter a:focus { background-color: #0698a0; border-color: #0698a0; color: white; }
 
 .borderBtn, .contactform button { font-family: "Lato", sans-serif; font-weight: 700; font-size: 14px; text-decoration: none; color: white; border: 1px solid white; padding: 18px 50px 18px 50px; display: inline-block; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
-.borderBtn:hover, .contactform button:hover, .borderBtn:focus, .contactform button:focus { background-color: white; color: #d82c2e; text-decoration: none; }
+.borderBtn:hover, .contactform button:hover, .borderBtn:focus, .contactform button:focus { background-color: white; color: #0698a0; text-decoration: none; }
 
 section .centered { margin: 0 auto; float: none; }
 
@@ -75,7 +76,7 @@ section .centered { margin: 0 auto; float: none; }
 /*------------------------------------------------------------------
 [2. Navbar]
 -------------------------------------------------------------------*/
-.navbar-flat { background: #d82c2e; margin-bottom: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
+.navbar-flat { background: #0698a0; margin-bottom: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
 .navbar-flat .navbar-collapse { text-align: center; }
 .navbar-flat .navbar-toggle .icon-bar { background: white; }
 .navbar-flat ul { float: none; }
@@ -89,7 +90,7 @@ section .centered { margin: 0 auto; float: none; }
 /*------------------------------------------------------------------
 [3. About]
 -------------------------------------------------------------------*/
-.hero { background: #d82c2e; color: white; }
+.hero { background: #0698a0; color: white; }
 .hero .borderBtn, .hero .contactform button, .contactform .hero button { margin-top: 20px; }
 .hero h3 { color: black !important; }
 
@@ -99,7 +100,7 @@ section .centered { margin: 0 auto; float: none; }
 
 .services .services-inner { margin-top: 20px; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
 
-.service { border: 1px solid #e3e5e5; padding-top: 50px; padding-bottom: 50px; text-align: center; color: #d82c2e; margin-left: -1px; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
+.service { border: 1px solid #e3e5e5; padding-top: 50px; padding-bottom: 50px; text-align: center; color: #0698a0; margin-left: -1px; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
 .service h3 { color: black; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
 .service i { width: 51px; height: 45px; margin: 0 auto; display: block; background: url(../images/icons.png) no-repeat; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
 .service .heart { background-position: left top; }
@@ -112,7 +113,7 @@ section .centered { margin: 0 auto; float: none; }
 .service .camera { background-position: -357px top; }
 .service .vcamera { background-position: -408px top; }
 .service .cloud { background-position: -459px top; }
-.service:hover, .service:focus { background-color: #d82c2e; border-color: #d82c2e; color: white; }
+.service:hover, .service:focus { background-color: #0698a0; border-color: #0698a0; color: white; }
 .service:hover h3, .service:focus h3 { color: white; }
 .service:hover .heart, .service:focus .heart { background-position: left bottom; }
 .service:hover .bulp, .service:focus .bulp { background-position: -51px bottom; }
@@ -128,7 +129,7 @@ section .centered { margin: 0 auto; float: none; }
 /*------------------------------------------------------------------
 [4. Skills]
 -------------------------------------------------------------------*/
-section.skills { background: #d82c2e; }
+section.skills { background: #0698a0; }
 section.skills h4 { color: black !important; }
 
 .skill { margin: 0 auto 20px auto; float: none; text-align: center; }
@@ -177,7 +178,7 @@ section.skills h4 { color: black !important; }
 .filter { text-align: center; width: 100%; }
 .filter li { display: inline-block; padding: 5px; }
 .filter a { display: block; padding-top: 10px; padding-bottom: 10px; }
-.filter .current { background-color: #d82c2e; border-color: #d82c2e; color: white; }
+.filter .current { background-color: #0698a0; border-color: #0698a0; color: white; }
 
 section.portfolio { background: white; }
 
@@ -209,13 +210,13 @@ section.contact .details p.bigger { font-size: 40px; font-weight: 700; margin-to
 .contactform .error, .contactform .form-error { border-color: #c12728 !important; }
 .contactform .no-margin { margin-right: 0px; }
 .contactform input.col-lg-6 { width: 48.5%; }
-.contactform button { background: #d82c2e; }
-.contactform button:hover, .contactform button:focus { border-color: #d82c2e; }
+.contactform button { background: #0698a0; }
+.contactform button:hover, .contactform button:focus { border-color: #0698a0; }
 .contactform p { text-align: center; }
 
 .form a { color: white; }
 
-#map { float: left; width: 100%; height: 390px; border-top: 4px solid #d82c2e; }
+#map { float: left; width: 100%; height: 390px; border-top: 4px solid #0698a0; }
 
 /*------------------------------------------------------------------
 [8. Footer]
@@ -252,9 +253,9 @@ img { max-width: 100%; height: auto; }
 
 .clear { clear: both; }
 
-::selection { background-color: #d82c2e; color: white; }
+::selection { background-color: #0698a0; color: white; }
 
-::-moz-selection { background-color: #d82c2e; color: white; }
+::-moz-selection { background-color: #0698a0; color: white; }
 
 input, textarea { -webkit-appearance: none; }
 
