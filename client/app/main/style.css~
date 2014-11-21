@@ -38,7 +38,7 @@ div, article, section, header, footer, nav, li {
 }
 body {
 	background:#f0f0f0;
-	color: #035b60;
+	color: #312A1E;
 	font-size: 100%;
 	font-family: 'Quattrocento', serif;
 }
@@ -453,7 +453,7 @@ section#services .align .sev_icon {
 	text-align:center;
 	margin:10px 0 20px 0;
 	font-size: 0.6em;
-	color:#e9600e;
+	color:#F0BF00;
 }
 section#services .span3 {
 	background:#e9e9e9;

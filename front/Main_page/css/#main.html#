@@ -4,8 +4,7 @@
 <!-- ******************** HeaderWrap ********************-->
 <div id="headerwrap">
   <header class="clearfix">
-    <h1><span style="color: #FFF">MakeMyTravel</span><br>
-    <h2>Don't screw up your vacation!</h2></h1>
+    <h1><span style="color: #FFF">MakeMyTravel</span><br><h2>Don't screw up your vacation!</h2></h1>
     <div class="container">
       <div class="row">
         <div class="span12">
@@ -22,42 +21,12 @@
 </div>
 <!--******************** Feature ********************-->
 
-
-<!--******************** How it Works Section ********************-->
-<section id="services" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-cog-circled"></i></div>
-    <h1>How It Works</h1>
-    <hr>
-    <h2>Don't screw up your vacation!</h2>
-    <!-- Four columns -->
-    <div class="row">
-      <div class="span3">
-        <div class="align"> <i class="icon-desktop sev_icon"></i> </div>
-        <h2>Creating Trips</h2>
-        <p>Our travel designers are capable of bringing some of the most authentic joyrneys to you,
-        because they are simple the locals who know their way around. </p>
-      </div>
-      <!-- /.span3 -->
-      <div class="span3">
-        <div class="align"> <i class="icon-vector sev_icon"></i> </div>
-        <h2>Print Design</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-     
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
-<hr>
-
 <!--******************** Portfolio Section ********************-->
 <section id="portfolio" class="single-page scrollblock">
   <div class="container">
     <div class="align"><i class="icon-desktop-circled"></i></div>
     <h1 id="folio-headline">Travel Examples</h1>
-    <div class="row" style="width: 1000px">
+    <div class="row">
       <div class="span4">
         <div class="mask2"> <a href="/assets/images/ko-chang.jpg" rel="prettyPhoto"><img src="/assets/images/ko-chang.jpg" heigth='189' width='370' alt=""></a> </div>
         <div class="inside">
@@ -101,7 +70,7 @@
     </div>
     <!-- /.row -->
     
-    <div class="row" style="width: 1000px">
+    <div class="row">
       <div class="span4">
         <div class="mask2"> <a href="/assets/images/kazahstan.jpg" rel="prettyPhoto"><img src="/assets/images/kazahstan.jpg" alt=""></a> </div>
         <div class="inside">
@@ -147,9 +116,91 @@
   <!-- /.container -->
 </section>
 <hr>
+<!--******************** Services Section ********************-->
+<section id="services" class="single-page scrollblock">
+  <div class="container">
+    <div class="align"><i class="icon-cog-circled"></i></div>
+    <h1>Services</h1>
+    <!-- Four columns -->
+    <div class="row">
+      <div class="span3">
+        <div class="align"> <i class="icon-desktop sev_icon"></i> </div>
+        <h2>Web design</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <!-- /.span3 -->
+      <div class="span3">
+        <div class="align"> <i class="icon-vector sev_icon"></i> </div>
+        <h2>Print Design</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <!-- /.span3 -->
+      <div class="span3">
+        <div class="align"> <i class="icon-basket sev_icon"></i> </div>
+        <h2>Ecommerce</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <!-- /.span3 -->
+      <div class="span3">
+        <div class="align"> <i class="icon-mobile-1 sev_icon"></i> </div>
+        <h2>Marketing</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <!-- /.span3 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<hr>
 <!--******************** Testimonials Section ********************-->
 
-<!--******************** Blog Section ********************-->
+<!--******************** News Section ********************-->
+<section id="news" class="single-page scrollblock">
+  <div class="container">
+    <div class="align"><i class="icon-pencil-circled"></i></div>
+    <h1>Our Blog</h1>
+    <!-- Three columns -->
+    <div class="row">
+      <article class="span4 post"> <img class="img-news" src="/assets/images/blog_img-01.jpg" alt="">
+        <div class="inside">
+          <p class="post-date"><i class="icon-calendar"></i> March 17, 2013</p>
+          <h2>A girl running on a road</h2>
+          <div class="entry-content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
+            <a href="#" class="more-link">read more</a> </div>
+        </div>
+        <!-- /.inside -->
+      </article>
+      <!-- /.span4 -->
+      <article class="span4 post"> <img class="img-news" src="/assets/images/blog_img-02.jpg" alt="">
+        <div class="inside">
+          <p class="post-date">February 28, 2013</p>
+          <h2>A bear sleeping on a tree</h2>
+          <div class="entry-content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
+            <a href="#" class="more-link">read more</a> </div>
+        </div>
+        <!-- /.inside -->
+      </article>
+      <!-- /.span4 -->
+      <article class="span4 post"> <img class="img-news" src="/assets/images/blog_img-03.jpg" alt="">
+        <div class="inside">
+          <p class="post-date">February 06, 2013</p>
+          <h2>A Panda playing with his baby</h2>
+          <div class="entry-content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
+            <a href="#" class="more-link">read more</a> </div>
+        </div>
+        <!-- /.inside -->
+      </article>
+      <!-- /.span4 -->
+    </div>
+    <!-- /.row -->
+    <a href="#" class="btn btn-large">Go to our blog</a> </div>
+  <!-- /.container -->
+</section>
+<hr>
 <!--******************** Team Section ********************-->
 <section id="team" class="single-page scrollblock">
   <div class="container">
