@@ -2,41 +2,123 @@
 
 <div id="top"></div>
 <!-- ******************** HeaderWrap ********************-->
-<div id="headerwrap">
+<div id="headerwrap" opacity>
   <header class="clearfix">
-    <h1><span style="color: #FFF">MakeMyTravel</span><br><h2>Don't screw up your vacation!</h2></h1>
+    <h1><span style="color: #FFF">MakeMyTravel</span><br>
+    <h2></h2></h1>
     <div class="container">
       <div class="row">
         <div class="span12">
           <br><br>
           <!--<h2>Signup for our Newsletter to be updated</h2>-->
-          <input type="text" name="search" placeholder="" class="cform-text" size="40" title="search">
-            <a href="results.html">
-                <input type="submit" value="Make My Travel" class="cform-submit">
+          
+         <input type="text" name="search" placeholder="name@domain.com" class="cform-text" size="40" title="search">
+         <a href="results.html">
+         <input type="submit" value="Sign Up" class="cform-submit">     
+                
             </a>
         </div>
       </div>
     </div>
   </header>
 </div>
-<!--******************** Feature ********************-->
+
+<!--******************** Designers ********************-->
+<section id="team" class="single-page scrollblock">
+  <div class="container">
+    <div class="align"><i class="icon-group-circled"></i></div>
+    <h1>Meet Travel Designers</h1>
+    
+    <!-- Five columns -->
+    <div class="desigers">
+      <div class="span2 offset1" style=' height:247px'>
+        <div class="teamalign"> <img class="team-thumb img-rounded" src="/assets/images/Liana-front.jpg" alt=""> </div>
+        <h3>Liana</h3>
+        <div class="job-position">Eastern Europe, CIS countries</div>
+      </div>
+      <!-- ./span2 -->
+      <div class="span2">
+        <div class="teamalign"> <img class="team-thumb img-rounded" src="/assets/images/Kate-front.jpg" alt=""> </div>
+        <h3>Kate</h3>
+        <div class="job-position">Western & Eastern Europe</div>
+      </div>
+      <!-- ./span2 -->
+      <div class="span2">
+        <div class="teamalign"> <img class="team-thumb img-rounded" src="/assets/images/Arseny-front.jpg" alt=""> </div>
+        <h3>Arseny</h3>
+        <div class="job-position">Eastern Europe, CIS countries</div>
+      </div>
+      <!-- ./span2 -->
+      <div class="span2 offset1">
+        <div class="teamalign"> <img class="team-thumb img-rounded" src="/assets/images/Lily-front.jpg" alt=""> </div>
+        <h3>Lily</h3>
+        <div class="job-position">Europe, U.K.</div>
+      </div>
+      <!-- ./span2 -->
+      <div class="span2">
+        <div class="teamalign"> <img class="team-thumb img-rounded" src="/assets/images/Liya-front.jpg" alt=""> </div>
+        <h3>Liya</h3>
+        <div class="job-position">Asia, Europe</div>
+      </div>
+       <!-- ./span2 -->
+      <div class="span2">
+        <div class="teamalign"> <img class="team-thumb img-rounded" src="/assets/images/Sabina-front.jpg" alt=""> </div>
+        <h3>Sabina</h3>
+        <div class="job-position">Eastern & Western Europe</div>
+      </div>
+      <!-- ./span2 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<hr>
+
+<!--******************** What We Do Section ********************-->
+<section id="services" class="single-page scrollblock">
+  <div class="container">
+    <div class="align"><i class="icon-cog-circled"></i></div>
+    <h1>What We Do:</h1>
+    <!-- Four columns -->
+    <div class="row">
+      <div class="span6">
+        <div class="align"> <i class="icon-desktop sev_icon"></i> </div>
+        <h1>Creating Trips</h1>
+        <p> <font size="5">Our travel designers are capable of bringing the most authentic joyrneys to you,
+        because locals know their way around better.</font></p>
+      </div>
+      <!-- /.span3 -->
+      <div class="span5">
+        <div class="align"> <i class="icon-vector sev_icon"></i> </div>
+        <h1>Booking Itineraries</h1>
+        <p> <font size="5">A travel designer can also help you with getting everything ready to go. From a cab to a resort in the Alps.</font></p>
+      </div>
+     
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<hr>
 
 <!--******************** Portfolio Section ********************-->
 <section id="portfolio" class="single-page scrollblock">
   <div class="container">
     <div class="align"><i class="icon-desktop-circled"></i></div>
-    <h1 id="folio-headline">Travel Examples</h1>
-    <div class="row">
+    <h1 id="folio-headline">Trip Examples</h1>
+    <div class="row" style="width: 1000px">
       <div class="span4">
         <div class="mask2"> <a href="/assets/images/ko-chang.jpg" rel="prettyPhoto"><img src="/assets/images/ko-chang.jpg" heigth='189' width='370' alt=""></a> </div>
         <div class="inside">
           <hgroup>
-            <h2>Something In Thailand</h2>
+            <h2>Asian Islands</h2>
           </hgroup>
           <div class="entry-content">
-            <p>Несколько дней в бунгало на Ко Чанге позволят вам исследовать самые красивые пляжи острова. А таинственные и прогулки по древней Камбодже приоткроют тайны гробниц и еще больше познакомят вас с культурой этой страны
-              дизайнер. </p>
-            <a class="more-link" href="#">By Jan</a> </div>
+            <p>How about a few days in a bungalow on Ko Chang Island, with some of the most beautiful beaches in the World? Together with mysterious ancient sights 
+            of Cambodia they will introduce you to a unique culture of South East Asia. </p>
+            <a class="more-link" href="#"></a> </div>
         </div>
         <!-- /.inside -->
       </div>
@@ -45,11 +127,11 @@
         <div class="mask2"> <a href="/assets/images/java.jpg" rel="prettyPhoto"><img src="/assets/images/java.jpg" alt=""></a> </div>
         <div class="inside">
           <hgroup>
-            <h2>Something in Indonesia</h2>
+            <h2>Visiting Java</h2>
           </hgroup>
           <div class="entry-content">
-            <p>The amazing and ancient places of Java Island are the best place to visit in Indonesia. Hiking trips to Volcano Mountains, surfing at wonderful beaches will make you a big fan of this Island.</p>
-            <a class="more-link" href="#">view project</a> </div>
+            <p>Amazing and provoking places of Java Island are the best place to visit in Indonesia. Hiking trips to Volcano Mountains, surfing at wonderful beaches will make you a big fan of this Island.</p>
+            <a class="more-link" href="#"></a> </div>
         </div>
         <!-- /.inside -->
       </div>
@@ -61,8 +143,8 @@
             <h2>Christmas in Scandinavia</h2>
           </hgroup>
           <div class="entry-content">
-            <p>Santa Claus  will meet you in his residence in Lapland, where you also can explore aurora and try “Lohikeytto” soup to warm up. Stockholm and Copenhagen will open doors of greatest Scandinavian castles and palaces for you.  </p>
-            <a class="more-link" href="#">by Designer A</a> </div>
+            <p>Santa Claus will meet you in his residence in Lapland, where you also can explore aurora and try “Lohikeytto” soup to warm up. Stockholm and Copenhagen will open doors of greatest Scandinavian castles and palaces for you.  </p>
+            <a class="more-link" href="#"></a> </div>
         </div>
         <!-- /.inside -->
       </div>
@@ -70,16 +152,16 @@
     </div>
     <!-- /.row -->
     
-    <div class="row">
+    <div class="row" style="width: 1000px">
       <div class="span4">
         <div class="mask2"> <a href="/assets/images/kazahstan.jpg" rel="prettyPhoto"><img src="/assets/images/kazahstan.jpg" alt=""></a> </div>
         <div class="inside">
           <hgroup>
-            <h2>Something in Kazahstan</h2>
+            <h2>Exploring Kazakhstan</h2>
           </hgroup>
           <div class="entry-content">
             <p>You will dive into history of ancient Kazakhstan in Almaty by spending a night in traditional Kazakh house - Yurt and by trying famous Beshbarmak in family restaurant up in mauntains. During hiking trip in Tien-shan you will reach the 3200 meters peak named “Kumbel” </p>
-            <a class="more-link" href="#">view project</a> </div>
+            <a class="more-link" href="#"></a> </div>
         </div>
         <!-- /.inside -->
       </div>
@@ -92,7 +174,7 @@
           </hgroup>
           <div class="entry-content">
             <p>This road trip in Italy will make you one step closer to the soul of Italy. You will live in 18th centuries villa near Florence, explore ruins of Rome and trying the best cuisine of Sicilia with local guide. </p>
-            <a class="more-link" href="#">view project</a> </div>
+            <a class="more-link" href="#"></a> </div>
         </div>
         <!-- /.inside -->
       </div>
@@ -105,48 +187,11 @@
           </hgroup>
           <div class="entry-content">
             <p>Majesty of Vienna, small streets of old Salzburg and gorgeous views of Innsbruck will be first steps of your adventures in Austrian alps. You will be skiing at one of the best skiing resort of Triol while living in beautiful old Austrian house.</p>
-            <a class="more-link" href="#">view project</a> </div>
+            <a class="more-link" href="#"></a> </div>
         </div>
         <!-- /.inside -->
       </div>
       <!-- /.span4 -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
-<hr>
-<!--******************** Services Section ********************-->
-<section id="services" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-cog-circled"></i></div>
-    <h1>Services</h1>
-    <!-- Four columns -->
-    <div class="row">
-      <div class="span3">
-        <div class="align"> <i class="icon-desktop sev_icon"></i> </div>
-        <h2>Web design</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <!-- /.span3 -->
-      <div class="span3">
-        <div class="align"> <i class="icon-vector sev_icon"></i> </div>
-        <h2>Print Design</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <!-- /.span3 -->
-      <div class="span3">
-        <div class="align"> <i class="icon-basket sev_icon"></i> </div>
-        <h2>Ecommerce</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <!-- /.span3 -->
-      <div class="span3">
-        <div class="align"> <i class="icon-mobile-1 sev_icon"></i> </div>
-        <h2>Marketing</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <!-- /.span3 -->
     </div>
     <!-- /.row -->
   </div>
@@ -155,109 +200,8 @@
 <hr>
 <!--******************** Testimonials Section ********************-->
 
-<!--******************** News Section ********************-->
-<section id="news" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-pencil-circled"></i></div>
-    <h1>Our Blog</h1>
-    <!-- Three columns -->
-    <div class="row">
-      <article class="span4 post"> <img class="img-news" src="/assets/images/blog_img-01.jpg" alt="">
-        <div class="inside">
-          <p class="post-date"><i class="icon-calendar"></i> March 17, 2013</p>
-          <h2>A girl running on a road</h2>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-            <a href="#" class="more-link">read more</a> </div>
-        </div>
-        <!-- /.inside -->
-      </article>
-      <!-- /.span4 -->
-      <article class="span4 post"> <img class="img-news" src="/assets/images/blog_img-02.jpg" alt="">
-        <div class="inside">
-          <p class="post-date">February 28, 2013</p>
-          <h2>A bear sleeping on a tree</h2>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-            <a href="#" class="more-link">read more</a> </div>
-        </div>
-        <!-- /.inside -->
-      </article>
-      <!-- /.span4 -->
-      <article class="span4 post"> <img class="img-news" src="/assets/images/blog_img-03.jpg" alt="">
-        <div class="inside">
-          <p class="post-date">February 06, 2013</p>
-          <h2>A Panda playing with his baby</h2>
-          <div class="entry-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-            <a href="#" class="more-link">read more</a> </div>
-        </div>
-        <!-- /.inside -->
-      </article>
-      <!-- /.span4 -->
-    </div>
-    <!-- /.row -->
-    <a href="#" class="btn btn-large">Go to our blog</a> </div>
-  <!-- /.container -->
-</section>
-<hr>
+<!--******************** Blog Section ********************-->
 <!--******************** Team Section ********************-->
-<section id="team" class="single-page scrollblock">
-  <div class="container">
-    <div class="align"><i class="icon-group-circled"></i></div>
-    <h1>Meet the team</h1>
-    <!-- Five columns -->
-    <div class="row">
-      <div class="span2 offset1">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="/assets/images/portrait-1.jpg" alt=""> </div>
-        <h3>Andrew</h3>
-        <div class="job-position">web designer</div>
-      </div>
-      <!-- ./span2 -->
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="/assets/images/portrait-2.jpg" alt=""> </div>
-        <h3>Stephen</h3>
-        <div class="job-position">web developer</div>
-      </div>
-      <!-- ./span2 -->
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="/assets/images/portrait-3.jpg" alt=""> </div>
-        <h3>Maria</h3>
-        <div class="job-position">graphic designer</div>
-      </div>
-      <!-- ./span2 -->
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="/assets/images/portrait-4.jpg" alt=""> </div>
-        <h3>John</h3>
-        <div class="job-position">project manager</div>
-      </div>
-      <!-- ./span2 -->
-      <div class="span2">
-        <div class="teamalign"> <img class="team-thumb img-circle" src="/assets/images/portrait-2.jpg" alt=""> </div>
-        <h3>Ashton</h3>
-        <div class="job-position">real owner</div>
-      </div>
-      <!-- ./span2 -->
-    </div>
-    <!-- /.row -->
-    <div class="row">
-      <div class="span10 offset1">
-        <hr class="featurette-divider">
-        <div class="featurette">
-          <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2>
-          <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-          <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-          <p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
-        </div>
-        <!-- /.featurette -->
-        <hr class="featurette-divider">
-      </div>
-      <!-- .span10 -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
 <!--******************** Contact Section ********************-->
 <section id="contact" class="single-page scrollblock">
   <div class="container">
@@ -266,7 +210,7 @@
     <div class="row">
       <div class="span12">
         <div class="cform" id="theme-form">
-          <form action="#" method="post" class="cform-form">
+          <form action="mailto:start@makemy.travel" method="post" class="cform-form">
             <div class="row">
               <div class="span6"> <span class="your-name">
                 <input type="text" name="your-name" placeholder="Your Name" class="cform-text" size="40" title="your name">
@@ -277,15 +221,15 @@
             </div>
             <div class="row">
               <div class="span6"> <span class="company">
-                <input type="text" name="company" placeholder="Your Company" class="cform-text" size="40" title="company">
+                <input type="text" name="company" placeholder="Destination & Date" class="cform-text" size="40" title="company">
                 </span> </div>
               <div class="span6"> <span class="website">
-                <input type="text" name="website" placeholder="Your Website" class="cform-text" size="40" title="website">
+                <input type="text" name="website" placeholder="Group Size & Budget" class="cform-text" size="40" title="website">
                 </span> </div>
             </div>
             <div class="row">
               <div class="span12"> <span class="message">
-                <textarea name="message" class="cform-textarea" cols="40" rows="10" title="drop us a line."></textarea>
+                <textarea name="message" class="cform-textarea" placeholder ="Everything else you would like to share" cols="40" rows="10" title="drop us a line."></textarea>
                 </span> </div>
             </div>
             <div>
@@ -302,6 +246,7 @@
   <!-- /.container -->
 </section>
 <hr>
+
 
 <footer class="footer">
   <div class="container">

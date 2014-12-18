@@ -164,6 +164,17 @@ em {
 	color: #f0bf00;
 	text-transform: uppercase;
 }
+
+
+/* ---------------------------------------------------------------------------------------------------------- 
+03 Designers------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+.designers{
+	width: 900px;
+	height: 600px;
+}
+
+
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Non-semantic ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
@@ -260,10 +271,11 @@ ul#menu-main > li > a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 	;
-	min-height: 600px;
-	margin-top: -60px;
+	min-height: 700px;
+	margin-top: -50px;
 	padding-top:160px;
 	text-align:center;
+	opacity: 1.0;
 }
 #headerwrap h1 {
 	color: #FFFFFF;
@@ -298,10 +310,12 @@ ul#menu-main > li > a:hover {
 	transition: background 0.25 ease-in;
 	-moz-transition: background 0.25 ease-in;
 	-webkit-transition: background 0.25 ease-in;
+	opacity: 1.0
 }
 #headerwrap input[type=text] {
 	height: 2.9em;
 	width:50%;
+	opacity: 1.0
 }
 #headerwrap input[type=submit] {
 	font-family: 'Patua One', cursive;
@@ -545,8 +559,8 @@ article .inside {
 /* Team and Contact */
 
 section#team, section#contact {
-	color: #e4e5e2;
-	background:#312A1E;
+	color: #035b60;
+	background:#f0f0f0;
 }
 section#team .align, section#contact .align {
 	font-size: 6em;

@@ -65,13 +65,60 @@ $(document).ready(function(){
 	$('.fullwidth').boxer();
 
 	// Animations
-	
+	var windowH = $(window).height();
+
+	$(window).bind('resize', function () {
+		windowH = $(window).height();
+	});
+
+	$('.hidethis').bind('inview', function (event, visible) {
+		if (visible === true) {
+			$(this).removeClass('hidethis');
+		}
+	});
+
+	var servicesTopOffset = $('.services .services-inner').offset().top;
+	var timelineTopOffset = $('.timeline').offset().top;
+	var skillsTopOffset = $('.skills').offset().top;
+	$(window).scroll(function(){
+		// Fixed Navbar
+		if(window.pageYOffset > windowH)
+		{
+			$('.navbar-flat').addClass('navbar-fixed-top');
+			$('.firstSec').addClass('fixed');
+		}
+		else
+		{
+			$('.navbar-flat').removeClass('navbar-fixed-top');
+			$('.firstSec').removeClass('fixed');
+		}
+		// Timeline animation
+		if(window.pageYOffset > timelineTopOffset-windowH+200)
+		{
+			$('.timeline li').addClass('fadeInUp');
+		}
+		// Skills Chart animation
+		if(window.pageYOffset > skillsTopOffset-windowH+200)
+		{
+			$('.chart').easyPieChart({
+				easing: 'easeInOut',
+				barColor: '#ffffff',
+				trackColor: '#d82c2e',
+				scaleColor: false,
+				lineWidth: 4,
+				size: 152,
+				onStep: function(from, to, percent) {
+					$(this.el).find('.percent').text(Math.round(percent));
+				}
+			});
+		}
+	});
 
 	// Google Maps
 	function init() {
 		var mapOptions = {
 			zoom: 14,
-			center: new google.maps.LatLng(44.982209,-93.233414),
+			center: new google.maps.LatLng(41.045802,28.994427),
 			styles: [{featureType:"landscape",stylers:[{saturation:-100},{lightness:65},{visibility:"on"}]},{featureType:"poi",stylers:[{saturation:-100},{lightness:51},{visibility:"simplified"}]},{featureType:"road.highway",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"road.arterial",stylers:[{saturation:-100},{lightness:30},{visibility:"on"}]},{featureType:"road.local",stylers:[{saturation:-100},{lightness:40},{visibility:"on"}]},{featureType:"transit",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"administrative.province",stylers:[{visibility:"off"}]/**/},{featureType:"administrative.locality",stylers:[{visibility:"off"}]},{featureType:"administrative.neighborhood",stylers:[{visibility:"on"}]/**/},{featureType:"water",elementType:"labels",stylers:[{visibility:"on"},{lightness:-25},{saturation:-100}]},{featureType:"water",elementType:"geometry",stylers:[{hue:"#ffff00"},{lightness:-25},{saturation:-97}]}]
 		};
 		var mapElement = document.getElementById('map');

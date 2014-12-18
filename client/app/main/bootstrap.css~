@@ -243,7 +243,7 @@ a:hover, a:focus {
 	width: 220px;
 }
 .span2 {
-	width: 210px;
+	width: 140px;
 }
 .span1 {
 	width: 60px;

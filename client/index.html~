@@ -38,7 +38,6 @@
 
     <!-- Add your site or application content here -->
     <div ui-view=""></div>
-    <a ui-sref="profile_kate">Kate's Profile</a>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
